@@ -1,0 +1,28 @@
+.card{
+    width: 500px;
+    text-shadow: 2px 2px 2px;;
+    border: 2px solid;
+    background-color: rgb(53, 53, 255);
+    background-size: cover;
+    }
+
+.card-header{
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(6, 0, 174);
+    background-color: rgb(255, 255, 255);
+    background-image: url(logo.jfif)
+}
+
+.card-main{
+    font-style: initial;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+   }
+
+.card-footer{
+    background: scroll;
+    background-color: darkgoldenrod;
+    border-color: blueviolet;
+    border: 2px solid;
+   }
