@@ -1,28 +1,41 @@
 .card{
-    width: 500px;
+    width: 25%;
     text-shadow: 2px 2px 2px;;
     border: 2px solid;
-    background-color: rgb(53, 53, 255);
-    background-size: cover;
-    }
+    background-color: rgb(88, 88, 251);
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-bottom: 20px;
+        }
 
 .card-header{
     font-style: italic;
     font-size: 50px;
-    color: rgb(6, 0, 174);
-    background-color: rgb(255, 255, 255);
-    background-image: url(logo.jfif)
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 17, 255);  
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+    box-shadow: 0 0 50px purple;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid;
+    border-color: black
+    ;
 }
 
 .card-main{
     font-style: initial;
     font-size: medium;
     color: rgb(255, 255, 255);
+    text-align: center
    }
 
 .card-footer{
     background: scroll;
+    margin-top: 0px;
+    margin-bottom: 10px;
     background-color: darkgoldenrod;
     border-color: blueviolet;
     border: 2px solid;
-   }
+    }
